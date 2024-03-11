@@ -11,7 +11,7 @@ namespace CICD.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            //Logger
+            //Logger for the new feature
         }
 
         public IActionResult Index()
